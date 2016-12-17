@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Poiret One';
+  src: url("assets/fonts/PoiretOne-Regular.eot");
+  src: url("assets/fonts/PoiretOne-Regular.woff2") format('woff2'), url("assets/fonts/PoiretOne-Regular.woff") format('woff'), url("assets/fonts/PoiretOne-Regular.ttf") format('truetype'), url("assets/fonts/PoiretOne-Regular.svg#PoiretOne-Regular") format('svg'), url("assets/fonts/PoiretOne-Regular.eot?#iefix") format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'Poiret One';
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  outline: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: url("assets/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  font-smoothing: antialiased;
+  user-select: none;
+}
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.hide {
+  display: none;
+}
+.absolute {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#menu h1 {
+  text-align: center;
+  margin: 50px 0 18px 0;
+  font-size: 100px;
+  color: #fff;
+  font-weight: normal;
+  text-shadow: 0 0 30px #fff;
+}
+#menu p {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0 0 10px #fff;
+}
+#menu hr {
+  margin: 40px auto;
+  width: 90%;
+}
+.start {
+  background-color: #ff9800;
+  margin: 100px auto;
+  width: 200px;
+  height: 70px;
+  font-size: 50px;
+  padding: 5px;
+}
+#effect {
+  position: absolute;
+}
+#game {
+  position: absolute;
+  cursor: crosshair;
+}
+.ui {
+  position: absolute;
+  font-family: 'Poiret One';
+  z-index: 100;
+  color: #fff;
+}
+span.ui {
+  font-size: 50px;
+  background-color: rgba(255,255,255,0);
+}
+button.ui {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+}
+button.ui:hover {
+  background-color: rgba(255,255,255,0.21);
+}
+#steps {
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  text-shadow: 0 0 3px #fff;
+}
+#intersections {
+  top: 30px;
+  left: 140px;
+  font-size: 30px;
+  text-shadow: 0 0 3px #fff;
+}
+#label {
+  top: 65px;
+  left: 28px;
+  font-size: 55px;
+  text-shadow: 0 0 2px #fff;
+}
+#restart {
+  top: 30px;
+  right: 30px;
+}
+#closePath {
+  top: 30px;
+  right: 120px;
+}
+#hint {
+  top: 30px;
+}
+.exit {
+  bottom: 30px;
+  right: 30px;
+}
+.setup {
+  right: 30px;
+  bottom: 30px;
+}
+.tutorial {
+  right: 120px;
+  bottom: 30px;
+}
+#settings h1 {
+  text-align: center;
+  margin: 50px 0 18px 0;
+  font-size: 100px;
+  color: #fff;
+  font-weight: normal;
+  text-shadow: 0 0 30px #fff;
+}
+.props {
+  margin-top: 50px;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+.props li {
+  margin-top: 10px;
+}
+.toggle {
+  text-shadow: 0 0 10px #fff;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+#content {
+  position: absolute;
+  background-color: #fff;
+  transition: all 0.5s;
+  opacity: 1;
+  padding: 10px 0;
+  top: 50%;
+  margin-top: -170px;
+  width: 100%;
+}
+#content h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#content p {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+#content button {
+  margin: 30px auto 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #ff9800;
+  cursor: pointer;
+  padding: 5px;
+}
+.user {
+  r: 20;
+  fill: #fff;
+  stroke-width: 3;
+  animation: 'elastic';
+}
+path {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 3;
+}
+.cross {
+  r: 25;
+  fill: #e44e4e;
+  stroke-width: 3;
+  animation: 'elastic';
+}
+.bad {
+  r: 25;
+  fill: rgba(103,58,183,0.63);
+  stroke-width: 3;
+  animation: 'elastic';
+}
+.touch {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 5;
+}
+.crossCrossing {
+  fill: #8bc34a;
+}
+.badCrossing {
+  r: 20;
+  fill: #fff;
+  opacity: 0.5;
+}
+.trajectoryLine {
+  stroke-width: 3;
+  stroke-dasharray: 3;
+}
+.userPath {
+  stroke-width: 3;
+  stroke: #fff;
+  fill: transparent;
+}
+.untouch {
+  fill: transparent;
+  stroke: #ff3535;
+  opacity: 0.8;
+  stroke-width: 5;
+}
+.test {
+  r: 10;
+  fill: rgba(255,255,255,0.5);
+  opacity: 0.5;
+  stroke-width: 2;
+  stroke: rgba(255,255,255,0.9);
+  animation: 'elastic';
+}
+.testCrossing {
+  r: 5;
+  fill: #8effe4;
+}

@@ -1,0 +1,1353 @@
+[
+  {
+    "label": "EASY",
+    "objects": [
+      {
+        "type": "cross",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "steps": 2,
+    "intersections": 1,
+    "buttons": "R",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "В живописи, как и в морали, главное состоит в том, чтобы в нужном месте провести линию — Гилберт Кит Честертон"
+        },
+        {
+          "label": "INFO",
+          "text": "Чтобы перезагрузить игру, нажмите R"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "Art, like morality, consists in drawing the line somewhere. — Gilbert Keith Chesterton"
+        },
+        {
+          "label": "INFO",
+          "text": "To reset the game, press R"
+        }
+      ]
+    }
+  },
+  {
+    "label": "I ANGULUS",
+    "objects": [
+      {
+        "type": "cross",
+        "x": -75,
+        "y": -75
+      },
+      {
+        "type": "cross",
+        "x": -75,
+        "y": 75
+      },
+      {
+        "type": "cross",
+        "x": 75,
+        "y": -75
+      },
+      {
+        "type": "cross",
+        "x": 75,
+        "y": 75
+      }
+    ],
+    "steps": 3,
+    "intersections": 4,
+    "buttons": "R",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Конец уже содержится в начале. — Джордж Оруэлл. 1984"          
+        },
+        {
+          "label": "INFO",
+          "text": "Нажмите на H, чтобы получить подсказку, когда она появится"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "The end is already contained in the beginning. - George Orwell. 1984"
+        },
+        {
+          "label": "INFO",
+          "text": "Press H, to get a clue when it appears"
+        }
+      ]
+    },
+    "clicks": 18,
+    "hints": [
+      {"x": 250, "y": -125},
+      {"x": -350, "y": 0},
+      {"x": 250, "y": 125}
+    ]
+  },
+  {
+    "label": "V and IX",
+    "intersections": 9,
+    "steps": 4,
+    "clicks": 50,
+    "objects": [
+        {
+            "x": 95,
+            "y": 95,
+            "type": "cross"
+        },
+        {
+            "x": 0,
+            "y": 95,
+            "type": "cross"
+        },
+        {
+            "x": -95,
+            "y": 95,
+            "type": "cross"
+        },
+        {
+            "x": -95,
+            "y": 0,
+            "type": "cross"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "cross"
+        },
+        {
+            "x": 95,
+            "y": 0,
+            "type": "cross"
+        },
+        {
+            "x": 95,
+            "y": -95,
+            "type": "cross"
+        },
+        {
+            "x": 0,
+            "y": -95,
+            "type": "cross"
+        },
+        {
+            "x": -95,
+            "y": -95,
+            "type": "cross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -268.5,
+            "y": 141.5
+        },
+        {
+            "x": 331.5,
+            "y": 41.5
+        },
+        {
+            "x": -268.5,
+            "y": -58.5
+        },
+        {
+            "x": 331.5,
+            "y": -158.5
+        }
+    ],
+    "buttons": "R",
+    "areas": null,
+    "hintRU": null,
+    "hintUS": null
+  },
+  {
+    "label": "III IN A ROW",
+    "objects": [
+      {
+        "type": "cross",
+        "x": -50,
+        "y": -50
+      },
+      {
+        "type": "cross",
+        "x": 0,
+        "y": -50
+      },
+      {
+        "type": "cross",
+        "x": 50,
+        "y": -50
+      },
+      {
+        "type": "cross",
+        "x": -50,
+        "y": 0
+      },
+      {
+        "type": "cross",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "cross",
+        "x": 50,
+        "y": 0
+      },
+      {
+        "type": "cross",
+        "x": -50,
+        "y": 50
+      },
+      {
+        "type": "cross",
+        "x": 0,
+        "y": 50
+      },
+      {
+        "type": "cross",
+        "x": 50,
+        "y": 50
+      },
+    ],
+    "steps": 2,
+    "intersections": 5,
+    "buttons": "R",
+    "windows": {
+      "en": [
+        {
+          "label": "LINES",
+          "text": "Do not lose not one who knows all the options of victory, but the one who knows all the options defeat. — Haroun Agatsarsky"
+        }
+      ],
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Не проигрывает не тот, кто знает все варианты победы, а тот, кто знает все варианты поражения. — Гарун Агацарский"
+        }
+      ]
+    },
+    "clicks": 22,
+    "hints": [
+      {"x": -100, "y": 100},
+      {"x": 60, "y": -100}
+    ]
+  },
+  {
+    "label": "CONIUNCTIS",
+    "intersections": 4,
+    "steps": 3,
+    "clicks": 50,
+    "objects": [
+        {
+            "x": -230,
+            "y": -80,
+            "type": "cross"
+        },
+        {
+            "x": 220,
+            "y": -80,
+            "type": "cross"
+        },
+        {
+            "x": 270,
+            "y": 20,
+            "type": "cross"
+        },
+        {
+            "x": -280,
+            "y": 20,
+            "type": "cross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -5,
+            "y": -30
+        },
+        {
+            "x": -130,
+            "y": -5
+        },
+        {
+            "x": 120,
+            "y": -5
+        }
+    ],
+    "areas": [
+        {
+            "x": -189,
+            "y": -119,
+            "w": 368,
+            "h": 208,
+            "type": "touch"
+        }
+    ],
+    "buttons": "R",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Если бы отрезок не считал себя бесконечной прямой, он вряд ли бы дотянул от одной до другой точки — Феликс Кривин"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "If the line segment is not considered himself an infinite straight line, he is unlikely to reach from one to another point — Felix Krivine"
+        }
+      ]
+    }
+  },
+  {
+    "label": "RATS",
+    "intersections": 8,
+    "steps": 5,
+    "objects": [
+        {
+            "x": -230,
+            "y": -30,
+            "type": "cross"
+        },
+        {
+            "x": 220,
+            "y": -30,
+            "type": "cross"
+        },
+        {
+            "x": -30,
+            "y": -230,
+            "type": "cross"
+        },
+        {
+            "x": 20,
+            "y": -230,
+            "type": "cross"
+        },
+        {
+            "x": -100,
+            "y": 260,
+            "type": "cross"
+        },
+        {
+            "x": 100,
+            "y": 260,
+            "type": "cross"
+        },
+        {
+            "x": -135,
+            "y": 225,
+            "type": "cross"
+        },
+        {
+            "x": 135,
+            "y": 225,
+            "type": "cross"
+        }
+    ],
+    "clicks": 50,
+    "hints": [
+        {
+            "x": 145,
+            "y": 20
+        },
+        {
+            "x": -80,
+            "y": 170
+        },
+        {
+            "x": -5,
+            "y": -180
+        },
+        {
+            "x": 70,
+            "y": 170
+        },
+        {
+            "x": -155,
+            "y": 20
+        }
+    ],
+    "areas": [
+        {
+            "x": -175,
+            "y": -175,
+            "w": 350,
+            "h": 350,
+            "type": "touch"
+        }
+    ],
+    "buttons": "R",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Начиная с определенной точки, возврат уже невозможен. Этой точки надо достичь. — Франц Кафка"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "There is a point of no return. This point has to be reached. — Franz Kafka"
+        }
+      ]
+    }
+  },
+  {
+    "label": "TRIGONUS",
+    "clicks": 50,
+    "objects": [
+        {
+            "x": -180,
+            "y": -5,
+            "type": "cross"
+        },
+        {
+            "x": -130,
+            "y": -55,
+            "type": "cross"
+        },
+        {
+            "x": 170,
+            "y": 45,
+            "type": "cross"
+        },
+        {
+            "x": 70,
+            "y": -55,
+            "type": "cross"
+        },
+        {
+            "x": 120,
+            "y": 95,
+            "type": "cross"
+        },
+        {
+            "x": -80,
+            "y": 95,
+            "type": "cross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -280,
+            "y": 95
+        },
+        {
+            "x": -30,
+            "y": -155
+        },
+        {
+            "x": 220,
+            "y": 95
+        }
+    ],
+    "steps": 3,
+    "intersections": 6,
+    "areas": [
+      {
+        "x": -300,
+        "w": 600,
+        "y": -160,
+        "h": 340,
+        "type": "touch"
+      }
+    ],
+    "buttons": "R Z",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Когда пора возвращаться, судьба найдет способ тебя вернуть. — Сара Джио. Фиалки в марте"
+        },
+        {
+          "label": "INFO",
+          "text": "Чтобы замкнуть точки линией, нажмите Z"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "Fate has a way of bringing you back when it's time to come back — Sarah Jio. The Violets of March"
+        },
+        {
+          "label": "INFO",
+          "text": "To close the line points, press Z"
+        }
+      ]
+    }
+  },
+  {
+    "label": "BEAR",
+    "steps": 3,
+    "intersections": 6,
+    "clicks": 50,
+    "buttons": "R Z",
+    "objects": [
+        {
+            "x": -130,
+            "y": 70,
+            "type": "cross"
+        },
+        {
+            "x": 45,
+            "y": 45,
+            "type": "cross"
+        },
+        {
+            "x": 245,
+            "y": 195,
+            "type": "cross"
+        },
+        {
+            "x": 295,
+            "y": 70,
+            "type": "cross"
+        },
+        {
+            "x": -305,
+            "y": -55,
+            "type": "cross"
+        },
+        {
+            "x": 70,
+            "y": 170,
+            "type": "cross"
+        }
+    ],
+    "hints": [
+        {
+            "x": 245,
+            "y": 220
+        },
+        {
+            "x": -330,
+            "y": -30
+        },
+        {
+            "x": 70,
+            "y": 45
+        }
+    ],
+    "areas": [
+        {
+            "x": -339,
+            "y": -91,
+            "w": 69,
+            "h": 70,
+            "type": "touch"
+        },
+        {
+            "x": 10,
+            "y": 11,
+            "w": 71,
+            "h": 68,
+            "type": "touch"
+        },
+        {
+            "x": 212,
+            "y": 163,
+            "w": 67,
+            "h": 66,
+            "type": "touch"
+        }
+    ],
+    "hintRU": null,
+    "hintUS": null,
+    "new": true
+  },
+  {
+    "label": "BACKWARDS",
+    "clicks": 50,
+    "hints": [
+        {
+            "x": -80,
+            "y": 70
+        },
+        {
+            "x": -5,
+            "y": -155
+        },
+        {
+            "x": 95,
+            "y": -155
+        },
+        {
+            "x": 45,
+            "y": 120
+        }
+    ],
+    "objects": [
+      {
+        "type": "cross",
+        "x": -50,
+        "y": 0
+      },
+      {
+        "type": "cross",
+        "x": 100,
+        "y": -100
+      },
+      {
+        "type": "cross",
+        "x": 50,
+        "y": 50
+      },
+      {
+        "type": "cross",
+        "x": 50,
+        "y": 250
+      },
+      {
+        "type": "cross",
+        "x": -150,
+        "y": 250
+      }
+    ],
+    "areas": [
+      {
+        "x": -125,
+        "w": 325,
+        "y": -160,
+        "h": 300,
+        "type": "touch"
+      }
+    ],
+    "steps": 4,
+    "intersections": 5,
+    "buttons": "R Z",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Мы не отступаем — мы идем в другом направлении. — Дуглас Макартур"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "We are not retreating - we are going in the other direction — Douglas MacArthur"
+        }
+      ]
+    }
+  },
+  {
+    "label": "MALUM",
+    "clicks": 5,
+    "objects": [
+        {
+            "x": -5,
+            "y": -5,
+            "type": "cross"
+        },
+        {
+            "x": 45,
+            "y": -5,
+            "type": "uncross"
+        },
+        {
+            "x": -55,
+            "y": -5,
+            "type": "uncross"
+        },
+        {
+            "x": -5,
+            "y": -55,
+            "type": "uncross"
+        },
+        {
+            "x": -5,
+            "y": 45,
+            "type": "uncross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -55,
+            "y": 45
+        },
+        {
+            "x": 45,
+            "y": -55
+        },
+        {
+            "x": -55,
+            "y": -55
+        },
+        {
+            "x": 45,
+            "y": 45
+        }
+    ],
+    "steps": 2,
+    "intersections": 1,
+    "buttons": "R Z",
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Мы замечаем препятствия, когда отрываем взгляд от цели. — Джозеф Коссман"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "We notice the obstacles, when we do not look at the goal. — Joseph Kossman"
+        }
+      ]
+    }
+  },
+  {
+    "label": "III",
+    "clicks": 30,
+    "objects": [
+        {
+            "x": -155,
+            "y": 45,
+            "type": "cross"
+        },
+        {
+            "x": -80,
+            "y": -30,
+            "type": "cross"
+        },
+        {
+            "x": -5,
+            "y": -105,
+            "type": "cross"
+        },
+        {
+            "x": 70,
+            "y": -30,
+            "type": "cross"
+        },
+        {
+            "x": 145,
+            "y": 45,
+            "type": "cross"
+        },
+        {
+            "x": -5,
+            "y": 170,
+            "type": "cross"
+        },
+        {
+            "x": -5,
+            "y": -30,
+            "type": "uncross"
+        },
+        {
+            "x": 70,
+            "y": 95,
+            "type": "uncross"
+        },
+        {
+            "x": -80,
+            "y": 95,
+            "type": "uncross"
+        },
+        {
+            "x": -5,
+            "y": 45,
+            "type": "uncross"
+        },
+        {
+            "x": 70,
+            "y": -155,
+            "type": "uncross"
+        },
+        {
+            "x": -80,
+            "y": -155,
+            "type": "uncross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -255,
+            "y": 170
+        },
+        {
+            "x": 20,
+            "y": -180
+        },
+        {
+            "x": 195,
+            "y": 170
+        }
+    ],
+    "steps": 3,
+    "intersections": 6,
+    "buttons": "RZ",
+    "areas": null
+  },
+  {
+    "label": "EAZY?",
+    "objects": [
+      {
+        "x": -43,
+        "y": -48,
+        "type": "cross"
+      },
+      {
+        "x": -42,
+        "y": -8,
+        "type": "cross"
+      },
+      {
+        "x": -41,
+        "y": 29,
+        "type": "cross"
+      },
+      {
+        "x": -40,
+        "y": 70,
+        "type": "cross"
+      },
+      {
+        "x": -39,
+        "y": 112,
+        "type": "cross"
+      },
+      {
+        "x": -44,
+        "y": -83,
+        "type": "cross"
+      },
+      {
+        "x": -19,
+        "y": -38,
+        "type": "cross"
+      },
+      {
+        "x": -2,
+        "y": -7,
+        "type": "cross"
+      },
+      {
+        "x": 18,
+        "y": 23,
+        "type": "cross"
+      },
+      {
+        "x": 40,
+        "y": 51,
+        "type": "cross"
+      },
+      {
+        "x": 57,
+        "y": 86,
+        "type": "cross"
+      },
+      {
+        "x": 78,
+        "y": 114,
+        "type": "cross"
+      },
+      {
+        "x": 84,
+        "y": 80,
+        "type": "cross"
+      },
+      {
+        "x": 86,
+        "y": 49,
+        "type": "cross"
+      },
+      {
+        "x": 87,
+        "y": 20,
+        "type": "cross"
+      },
+      {
+        "x": 87,
+        "y": -13,
+        "type": "cross"
+      },
+      {
+        "x": 87,
+        "y": -47,
+        "type": "cross"
+      },
+      {
+        "x": 139,
+        "y": -84,
+        "type": "cross"
+      },
+      {
+        "x": 174,
+        "y": -85,
+        "type": "cross"
+      },
+      {
+        "x": 220,
+        "y": -85,
+        "type": "cross"
+      },
+      {
+        "x": 125,
+        "y": 2,
+        "type": "cross"
+      },
+      {
+        "x": 160,
+        "y": 5,
+        "type": "cross"
+      },
+      {
+        "x": 198,
+        "y": 7,
+        "type": "cross"
+      },
+      {
+        "x": 227,
+        "y": 7,
+        "type": "cross"
+      },
+      {
+        "x": 115,
+        "y": 108,
+        "type": "cross"
+      },
+      {
+        "x": 156,
+        "y": 112,
+        "type": "cross"
+      },
+      {
+        "x": 201,
+        "y": 110,
+        "type": "cross"
+      },
+      {
+        "x": 234,
+        "y": 113,
+        "type": "cross"
+      },
+      {
+        "x": 92,
+        "y": -85,
+        "type": "cross"
+      },
+      {
+        "x": 394,
+        "y": -52,
+        "type": "cross"
+      },
+      {
+        "x": 364,
+        "y": -76,
+        "type": "cross"
+      },
+      {
+        "x": 320,
+        "y": -65,
+        "type": "cross"
+      },
+      {
+        "x": 305,
+        "y": -22,
+        "type": "cross"
+      },
+      {
+        "x": 325,
+        "y": 13,
+        "type": "cross"
+      },
+      {
+        "x": 369,
+        "y": 35,
+        "type": "cross"
+      },
+      {
+        "x": 390,
+        "y": 73,
+        "type": "cross"
+      },
+      {
+        "x": 371,
+        "y": 116,
+        "type": "cross"
+      },
+      {
+        "x": 329,
+        "y": 131,
+        "type": "cross"
+      },
+      {
+        "x": 298,
+        "y": 123,
+        "type": "cross"
+      },
+      {
+        "x": -257,
+        "y": -90,
+        "type": "cross"
+      },
+      {
+        "x": -257,
+        "y": -54,
+        "type": "cross"
+      },
+      {
+        "x": -258,
+        "y": -13,
+        "type": "cross"
+      },
+      {
+        "x": -257,
+        "y": 24,
+        "type": "cross"
+      },
+      {
+        "x": -259,
+        "y": 55,
+        "type": "cross"
+      },
+      {
+        "x": -260,
+        "y": 102,
+        "type": "cross"
+      },
+      {
+        "x": -214,
+        "y": 104,
+        "type": "cross"
+      },
+      {
+        "x": -173,
+        "y": 105,
+        "type": "cross"
+      },
+      {
+        "x": -128,
+        "y": 72,
+        "type": "uncross"
+      },
+      {
+        "x": -128,
+        "y": 41,
+        "type": "uncross"
+      },
+      {
+        "x": -127,
+        "y": 12,
+        "type": "uncross"
+      },
+      {
+        "x": -125,
+        "y": -21,
+        "type": "uncross"
+      },
+      {
+        "x": -124,
+        "y": -56,
+        "type": "uncross"
+      },
+      {
+        "x": -123,
+        "y": -91,
+        "type": "uncross"
+      },
+      {
+        "x": -131,
+        "y": 111,
+        "type": "uncross"
+      }
+    ],
+    "clicks": 50,
+    "hints": [
+        {
+            "x": 95,
+            "y": 145
+        },
+        {
+            "x": 120,
+            "y": -105
+        },
+        {
+            "x": -180,
+            "y": -230
+        }
+    ],
+    "steps": 3,
+    "intersections": 20,
+    "buttons": "RZ",
+    "areas": null,
+    "hintRU": null,
+    "hintUS": null,
+    "new": true
+  },
+  {
+    "label": "CHAOS",
+    "clicks": 50,
+    "objects": [
+        {
+            "x": -205,
+            "y": -155,
+            "type": "cross"
+        },
+        {
+            "x": 95,
+            "y": 20,
+            "type": "cross"
+        },
+        {
+            "x": 145,
+            "y": -80,
+            "type": "cross"
+        },
+        {
+            "x": 220,
+            "y": -155,
+            "type": "cross"
+        },
+        {
+            "x": -30,
+            "y": 45,
+            "type": "cross"
+        },
+        {
+            "x": -30,
+            "y": -130,
+            "type": "cross"
+        },
+        {
+            "x": -130,
+            "y": -155,
+            "type": "cross"
+        },
+        {
+            "x": -239,
+            "y": 98,
+            "type": "cross"
+        },
+        {
+            "x": 195,
+            "y": 95,
+            "type": "uncross"
+        },
+        {
+            "x": 120,
+            "y": 145,
+            "type": "uncross"
+        },
+        {
+            "x": -280,
+            "y": 20,
+            "type": "uncross"
+        },
+        {
+            "x": -205,
+            "y": 170,
+            "type": "uncross"
+        },
+        {
+            "x": -130,
+            "y": 195,
+            "type": "uncross"
+        },
+        {
+            "x": -280,
+            "y": 195,
+            "type": "uncross"
+        },
+        {
+            "x": -304,
+            "y": 78,
+            "type": "uncross"
+        },
+        {
+            "x": -105,
+            "y": 120,
+            "type": "uncross"
+        },
+        {
+            "x": 95,
+            "y": -155,
+            "type": "uncross"
+        },
+        {
+            "x": 170,
+            "y": -230,
+            "type": "uncross"
+        },
+        {
+            "x": 20,
+            "y": -230,
+            "type": "uncross"
+        },
+        {
+            "x": -105,
+            "y": -30,
+            "type": "uncross"
+        },
+        {
+            "x": -230,
+            "y": -80,
+            "type": "cross"
+        },
+        {
+            "x": -230,
+            "y": 20,
+            "type": "uncross"
+        },
+        {
+            "x": 245,
+            "y": -55,
+            "type": "uncross"
+        },
+        {
+            "x": -5,
+            "y": 270,
+            "type": "uncross"
+        }
+    ],
+    "hints": [
+        {
+            "x": -305,
+            "y": 120
+        },
+        {
+            "x": 195,
+            "y": -5
+        },
+        {
+            "x": -330,
+            "y": -205
+        },
+        {
+            "x": -105,
+            "y": 45
+        },
+        {
+            "x": 295,
+            "y": -205
+        }
+    ],
+    "steps": 5,
+    "intersections": 9,
+    "buttons": "RZ",
+    "areas": null,
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Жизнь — это прежде всего хаос, в котором ты затерян. Хосе Ортега-и-Гассет"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "Life - is first of all the chaos, in which you lost. Josе Ortega y Gasset"
+        }
+      ],
+    }
+  },
+  {
+    "label": "IMPEDIMENTA",
+    "objects": [
+      {
+        "type": "cross",
+        "x": -90,
+        "y": -70
+      },
+      {
+        "type": "cross",
+        "x": 90,
+        "y": -70
+      },
+      {
+        "type": "uncross",
+        "x": 55,
+        "y": -30
+      },
+      {
+        "type": "uncross",
+        "x": -55,
+        "y": -30
+      },
+      {
+        "type": "cross",
+        "x": 55,
+        "y": 30
+      },
+      {
+        "type": "cross",
+        "x": -55,
+        "y": 30
+      },
+      {
+        "type": "cross",
+        "x": 90,
+        "y": 70
+      },
+      {
+        "type": "cross",
+        "x": -90,
+        "y": 70
+      },
+      {
+        "type": "uncross",
+        "x": -175,
+        "y": 40
+      },
+      {
+        "type": "uncross",
+        "x": 175,
+        "y": 40
+      },
+      {
+        "type": "uncross",
+        "x": 55,
+        "y": 200
+      },
+      {
+        "type": "uncross",
+        "x": -55,
+        "y": 200
+      }
+    ],
+    "clicks": 50,
+    "hints": [
+        {
+            "x": -230,
+            "y": -80
+        },
+        {
+            "x": -205,
+            "y": 95
+        },
+        {
+            "x": 220,
+            "y": 95
+        },
+        {
+            "x": 245,
+            "y": -80
+        }
+    ],
+    "steps": 4,
+    "intersections": 6,
+    "buttons": "R Z",
+
+    "windows": {
+      "ru": [
+        {
+          "label": "LINES",
+          "text": "Не тратьте время в поиске препятствий: их может и не существовать. — Франц Кафка"
+        }
+      ],
+      "en": [
+        {
+          "label": "LINES",
+          "text": "Do not waste your time searching for obstacles: they may does not exist. — Franz Kafka"
+        }
+      ]
+    }
+  }
+]
