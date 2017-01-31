@@ -25,6 +25,10 @@ class CanvasEffect {
 		bool ? this.scene.show() : this.scene.hide();
 		bool && this.loop();
 	}
+	resize() {
+		this.scene[0].width = this.game.w;
+		this.scene[0].height = this.game.h;		
+	}
 
 	loop() {
 		if(!this.isRenderGraphy) return;

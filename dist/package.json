@@ -1,0 +1,25 @@
+{
+  "main": "index.html",
+  "name": "lines",
+  "description": "A geometric puzzle made in a minimalist style, in which you have to use logic and skill to solve problems without knowing the goal. Over time, the game becomes more complicated, introducing new possibilities and combinations. I am sure that with each complete level you will be more and more proud of myself, because it's really hard!",
+  "version": "2.0.0",
+  "keywords": [
+    "game",
+    "web",
+    "puzzle",
+    "logic",
+    "snap.svg",
+    "vectors",
+    "geometrics"
+  ],
+  "author": "azbang",
+  "window": {
+    "title": "LINES",
+    "icon": "ico.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "mouse"
+  }
+}

@@ -22,6 +22,15 @@ class Play {
 		$('#interface').on('click', (e) => this.userAction(e));
 	}
 
+	resize() {
+		this.paper.attr({
+			width: this.game.w,
+			height: this.game.h
+		});
+
+		this.restartLevel();
+	}
+
 	userAction(e) {
 		if(e.target.tagName === 'BUTTON') return;
 

@@ -1,7 +1,7 @@
 const Game = require('./Game');
 
 var ready = function() {
-	this.game = new Game({
+	var game = new Game({
 		play: {
 			currentLevel: 0
 		},

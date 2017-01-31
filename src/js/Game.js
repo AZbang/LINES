@@ -47,10 +47,32 @@ class Game {
 		this.navigation.toMenu();
 
 		this.music = AudioFX(config.music.file, {
-			volume:   0.5,
-			loop:     true,
+			volume: 0.5,
+			loop: true,
 			autoplay: true 
 		});
+
+		// helper method "resizeEnd"
+		$(window).resize(function() {
+			if(this.resizeTO) clearTimeout(this.resizeTO);
+
+			this.resizeTO = setTimeout(function() {
+				$(this).trigger('resizeEnd');
+			}, 500);
+		});
+		$(window).bind('resizeEnd', () => this.resize());
+	}
+	resize() {
+		this.zoom = $(window).width()/1000 > 1 ? 1 : $(window).width()/1000;
+		$('body').css('zoom', this.zoom);
+
+		this.w = Math.round($(window).width()/this.zoom);
+		this.h = Math.round($(window).height()/this.zoom);
+		this.centerX = this.w/2;
+		this.centerY = this.h/2;
+
+		this.effect.resize();
+		this.play.resize();
 	}
 }
 
