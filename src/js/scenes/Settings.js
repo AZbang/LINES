@@ -9,11 +9,12 @@ class Settings {
 		this.propMusic = $('#propMusic');
 		this.propEffect = $('#propEffect');
 		this.propLang = $('#propLang');
+		this.propReset = $('#propReset');
 
 		this.curLang = localStorage.getItem('lang')-0 || 0;
 		this.langs = ['en', 'ru'];
 		this.lang = this.langs[this.curLang];
-		
+
 		this.isMusic = true;
 		this.isGraphics = true;
 
@@ -23,6 +24,7 @@ class Settings {
 		this.propMusic.children().on('click', () => this.toggleMusic());
 		this.propEffect.children().on('click', () => this.toggleEffect());
 		this.propLang.children().on('click', () => this.selectLang());
+		this.propReset.children().on('click', () => this.resetGame());
 	}
 
 	toggleMusic() {
@@ -30,6 +32,9 @@ class Settings {
 
 		this.propMusic.children().html(this.isMusic ? 'ON' : 'OFF');
 		this.isMusic ? this.game.music.play() : this.game.music.stop();
+	}
+	resetGame() {
+		localStorage.setItem('currentLevel', 0);
 	}
 	toggleEffect() {
 		this.isGraphics = !this.isGraphics;

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.azbang.linespro" version="2.1.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>LINES</name>
+    <description>
+        A geometric puzzle made in a minimalist style, in which you have to use logic and skill to solve problems without knowing the goal. Over time, the game becomes more complicated, introducing new possibilities and combinations. I am sure that with each complete level you will be more and more proud of myself, because it's really hard!
+    </description>
+    <icon src="res/icon.png" />
+    <author email="azbango5@gmail.com">azbang</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="Orientation" value="landscape" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="SplashScreenBackgroundColor" value="white" />
+    <splash src="res/screen.png" />
+    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <plugin name="onesignal-cordova-plugin" spec="git+https://github.com/OneSignal/OneSignal-Cordova-SDK.git" />
+</widget>

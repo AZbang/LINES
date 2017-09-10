@@ -20,7 +20,7 @@ class WindowManager {
 	_bindEvents() {
 		this.button.on('click', (() => {
 			this.window.fadeOut(() => this.close());
-			setTimeout(() => this.on && this.on(), 500);
+			setTimeout(() => this.on && this.on(), 1000);
 		}));
 	}
 	addWindow(config, cb) {
@@ -34,7 +34,7 @@ class WindowManager {
 		this.window.show();
 	}
 	close() {
-		this.window.hide();	
+		this.window.hide();
 	}
 }
 

@@ -17,13 +17,13 @@ const browserify = require("gulp-browserify");
 
 var isDev = process.env.DEV !== 'production';
 var pathes = {
-	root: './dist',
+	root: './www',
 	build: {
-		all: './dist/**/*.*',
-		img: './dist/assets/img',
-		templates: './dist',
-		css: './dist',
-		js: './dist',
+		all: './www/**/*.*',
+		img: './www/assets/img',
+		templates: './www',
+		css: './www',
+		js: './www',
 		zip: './zip'
 	},
 	src: {

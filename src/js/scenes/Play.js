@@ -11,7 +11,7 @@ class Play {
 			height: this.game.h
 		});
 
-		this.currentLevel = localStorage.getItem('currentLevel') - 0 || 0;
+		this.currentLevel = +localStorage.getItem('currentLevel') || 0;
 		this.levels = localStorage.getItem('levels') ? JSON.parse(localStorage.getItem('levels')) : require('../levels');
 		this.isLevelOver = false;
 
@@ -72,12 +72,12 @@ class Play {
 	nextLevel() {
 		if(!this.isLevelOver) {
 			this.loadLevel(this.currentLevel+1, true);
-		}		
+		}
 	}
 	backLevel() {
 		if(!this.isLevelOver) {
 			this.loadLevel(this.currentLevel-1, true);
-		}		
+		}
 	}
 	restartLevel() {
 		if(!this.isLevelOver) {
@@ -86,4 +86,4 @@ class Play {
 	}
 }
 
-module.exports = Play; 
+module.exports = Play;

@@ -33,7 +33,7 @@ class Navigation {
 		this.game.settings.scene.hide();
 		this.game.menu.scene.hide();
 
-		this.game.play.loadLevel();
+		this.game.play.loadLevel(+localStorage.getItem('currentLevel'));
 	}
 
 	pause() {

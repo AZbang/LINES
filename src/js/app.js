@@ -23,8 +23,8 @@ var ready = function() {
 			volume: 0.5,
 			loop: true
 		},
-		repository: 'https://raw.githubusercontent.com/AZbang/LINES/master/levels',
-		edition: 'FREE'
+		repository: 'https://raw.githubusercontent.com/AZbang/LINES_CONSTRUCTOR/master/levels',
+		edition: 'PAID'
 	});
 }
 
