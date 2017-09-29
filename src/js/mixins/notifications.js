@@ -6,7 +6,7 @@ var notifications = (game) => {
 	window.plugins.OneSignal
 		.startInit(services.OneSignalId, services.GooglePlayId)
 		.sendTag('edition', game.edition)
-		.sendTag('version', 'v2.1')
+		.sendTag('version', 'v2.2')
 		.endInit();
 }
 
